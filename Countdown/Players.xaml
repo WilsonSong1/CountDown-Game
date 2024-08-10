@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Countdown.Players"
+             Title="Players"
+             BackgroundColor="CornflowerBlue">
+    <VerticalStackLayout HorizontalOptions="Center">
+        <Label
+            FontSize="20"
+            TextColor="Black"
+            Text="Enter Player Names"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Padding="65"
+            MaximumWidthRequest="500"/>
+
+        <Grid RowDefinitions="100, 100, 100, 100" ColumnDefinitions="450" BackgroundColor="Green">
+            <Entry x:Name="Player1Name" Placeholder="Player 1" BackgroundColor="White" HeightRequest="50" WidthRequest="250" TextColor="Black" Grid.Row="0"/>
+            <Entry x:Name="Player2Name" Placeholder="Player 2" BackgroundColor="White" HeightRequest="50" WidthRequest="250" TextColor="Black" Grid.Row="1"/>
+            <Button x:Name="nameBtn" Text="Submit" Clicked="clickSubmit" MaximumWidthRequest="150" MaximumHeightRequest="50" Grid.Row="2" BackgroundColor="White"/>
+        </Grid>
+
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Countdown.Page1"
+             Title="Page1"
+             BackgroundColor="CornflowerBlue">
+    <VerticalStackLayout HorizontalOptions="Center">
+        <Label
+            FontSize="20"
+            TextColor="Black"
+            Text="Welcome to the Countdown Game"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Padding="65"
+            MaximumWidthRequest="500"/>
+
+        <Grid RowDefinitions="100, 100, 100, 100" ColumnDefinitions="450" BackgroundColor="Green">
+            <Button x:Name="playBtn" Text="Play" Clicked="clickPlay" MaximumWidthRequest="150" MaximumHeightRequest="50" Grid.Row="0" BackgroundColor="White"/>
+            <Button x:Name="HistBtn" Text="History" Clicked="clickHistory" MaximumWidthRequest="150" MaximumHeightRequest="50" Grid.Row="1" BackgroundColor="White"/>
+            <Button x:Name="SetBtn" Text="Settings" Clicked="clickSettings" MaximumWidthRequest="150" MaximumHeightRequest="50" Grid.Row="2" BackgroundColor="White"/>
+            <Button x:Name="ExitBtn" Text="Exit" Clicked="clickExit" MaximumWidthRequest="150" MaximumHeightRequest="50" Grid.Row="3" BackgroundColor="White"/>
+        </Grid>
+        
+    </VerticalStackLayout>
+</ContentPage>

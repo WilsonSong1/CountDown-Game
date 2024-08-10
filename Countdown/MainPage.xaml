@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Countdown.MainPage"
+             BackgroundColor="CornflowerBlue">
+
+    <VerticalStackLayout>
+        <Label Text="CountDown" TextColor="Blue" HorizontalOptions="Center" FontSize="50"/>
+        <Label x:Name="lbl1" Text="PlaceHolder: " FontSize="30" HorizontalOptions="Center" Padding="10"/>
+        <Label x:Name="lbl2" Text="PlaceHolder: " FontSize="30" HorizontalOptions="Center" Padding="10"/>
+        <Grid x:Name="CountDownGrid" BackgroundColor="Blue" RowDefinitions="125, 125" ColumnDefinitions="*, *, *, *, *, *, *, *, *" MaximumWidthRequest="1220">
+            <Label BackgroundColor="CornflowerBlue" Grid.Row="1" Grid.ColumnSpan="9"/>
+            <Button x:Name="Vowel" Clicked="GiveVowel" Text="Vowel" Grid.Row="1" Grid.Column="3" MaximumHeightRequest="50" BackgroundColor="White" BorderColor="Black" BorderWidth="1"/>
+            <Button x:Name="Consonant" Clicked="GiveConsonant" Text="Consonant" Grid.Row="1" Grid.Column="5" MaximumHeightRequest="50" BackgroundColor="White" BorderColor="Black" BorderWidth="1"/>
+        </Grid>
+
+        <Grid x:Name="CountDownGrid2" BackgroundColor="Blue" RowDefinitions="125" ColumnDefinitions="*, *, *, *, *, *, *, *, *" IsVisible="False" MaximumWidthRequest="1220">
+        </Grid>
+
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Entry x:Name="EnterWord" Placeholder="Enter Word Here" MaxLength="9" BackgroundColor="White" MinimumWidthRequest="100" TextColor="Black" IsVisible="False"/>
+            <Button x:Name="SubmitEntry" Clicked="ClickedSubmit" Text="Submit" IsVisible="False"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+
+</ContentPage>
