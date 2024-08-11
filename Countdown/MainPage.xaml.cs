@@ -1,5 +1,8 @@
 ﻿
 
+using System.Net;
+using System.Reflection;
+
 namespace Countdown
 {
     public partial class MainPage : ContentPage
@@ -157,7 +160,7 @@ namespace Countdown
 
             if(wordLength == wordEntry.Length)
             {
-                DisplayAlert("Yes", "Yes", "Yes");
+                WordsList();
             }
             else
             {
@@ -167,5 +170,27 @@ namespace Countdown
 
         }
 
+       private void WordsList()
+        {
+            string line;
+
+            StreamReader sr = new StreamReader(Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"..\..\..\..\..\Resources\WordList.txt"));
+            line = sr.ReadLine();
+            while(line != null)
+            {
+                line = sr.ReadLine();
+
+                if (line == wordEntered)
+                {
+                    DisplayAlert("yes", "OKAY", "Yes");
+                    clearGrid();
+                    return;
+                }
+            }
+            DisplayAlert("No", "Word not found", "Okay");
+
+        }
+
+        //MAKE A TIMER THEN 2 PLAYER MODE
     }
 }

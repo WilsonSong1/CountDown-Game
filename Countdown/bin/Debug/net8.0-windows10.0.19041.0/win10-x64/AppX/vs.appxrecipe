@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\wilso\source\repos\Countdown\Countdown\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-08-10T13:43:29.741</Modified>
+      <Modified>2024-08-10T16:02:03.675</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\wilso\source\repos\Countdown\Countdown\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Countdown.dll">
       <PackagePath>Countdown.dll</PackagePath>
-      <Modified>2024-08-10T13:43:29.496</Modified>
+      <Modified>2024-08-10T16:02:03.401</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\wilso\source\repos\Countdown\Countdown\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Countdown.exe</PackagePath>
-      <Modified>2024-08-10T13:43:29.499</Modified>
+      <Modified>2024-08-10T16:02:03.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\wilso\source\repos\Countdown\Countdown\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
