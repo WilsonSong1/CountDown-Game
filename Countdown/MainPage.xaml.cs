@@ -1,7 +1,9 @@
 ﻿
-
+using System.Timers;
 using System.Net;
 using System.Reflection;
+using System.Diagnostics.Metrics;
+using System.Security.Principal;
 
 namespace Countdown
 {
@@ -10,6 +12,8 @@ namespace Countdown
         private string wordEntered;
         private char[] letter = new char [9];
         private char[] savedLetters = new char [9];
+        private System.Timers.Timer timer;
+        int totalTime;
         int row;
         int i = 0;
         int player1Points = 0;
@@ -101,7 +105,7 @@ namespace Countdown
                 
                 if(i == 9)
                 {
-                    playGame();
+                    play.IsVisible = true;
                 }
             }
             
@@ -126,7 +130,7 @@ namespace Countdown
 
                 if (i == 9)
                 {
-                    playGame();
+                    play.IsVisible = true;
                 }
             }
         }
@@ -136,6 +140,8 @@ namespace Countdown
             CountDownGrid2.IsVisible = true;
             EnterWord.IsVisible = true;
             SubmitEntry.IsVisible = true;
+            play.IsVisible = false;
+            timerLbl.IsVisible = true;
         }
 
         private void scoreboard()
@@ -173,14 +179,15 @@ namespace Countdown
        private void WordsList()
         {
             string line;
+            string wordEntry = wordEntered.ToUpper();
 
-            StreamReader sr = new StreamReader(Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"..\..\..\..\..\Resources\WordList.txt"));
+            StreamReader sr = new StreamReader(Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"..\..\..\..\..\Resources\WordList.txt")); //Finding the path file starting from where the program is run
             line = sr.ReadLine();
             while(line != null)
             {
                 line = sr.ReadLine();
 
-                if (line == wordEntered)
+                if (string.Equals(line, wordEntry, StringComparison.OrdinalIgnoreCase)) //Comparing strings without case sensitive
                 {
                     DisplayAlert("yes", "OKAY", "Yes");
                     clearGrid();
@@ -191,6 +198,38 @@ namespace Countdown
 
         }
 
-        //MAKE A TIMER THEN 2 PLAYER MODE
+        private void playBtn(object sender, EventArgs e)
+        {
+            playGame();
+            startTimer();
+        }
+
+        private void startTimer()
+        {
+            totalTime = 30;
+            timer = new System.Timers.Timer(1000); //A timer that ticks every 
+            timer.Elapsed += timeElapsed;
+            timer.Start();
+            timerLbl.Text = $"{totalTime}'s left";
+        }
+
+
+        private void timeElapsed(object sender, System.Timers.ElapsedEventArgs e)
+        {
+            Dispatcher.Dispatch(() =>
+            {
+                    totalTime--;
+                    timerLbl.Text = $"{totalTime}'s left";
+
+                if(totalTime ==0)
+                {
+                    timer.Stop();
+                    timerLbl.Text = $"Times up!";
+                }
+            }
+            );
+           
+        }
+        //MAKE 2 PLAYER MODE
     }
 }
