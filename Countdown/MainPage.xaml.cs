@@ -18,6 +18,7 @@ namespace Countdown
         int i = 0;
         int player1Points = 0;
         int player2Points = 0;
+        int playerTurn = 0;
 
         private char[] vowelList = { 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A',
                                      'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E',
@@ -142,6 +143,14 @@ namespace Countdown
             SubmitEntry.IsVisible = true;
             play.IsVisible = false;
             timerLbl.IsVisible = true;
+            showTurn.IsVisible = true;
+            playersTurn();
+        }
+
+        private void stopGame()
+        {
+            EnterWord.IsEnabled = false;
+            SubmitEntry.IsEnabled = false;
         }
 
         private void scoreboard()
@@ -171,12 +180,11 @@ namespace Countdown
             else
             {
                 DisplayAlert("Incorrect use of letters", "The letters used are invalid please try again", "Ok");
-                clearGrid();
             }
 
         }
 
-       private void WordsList()
+       public void WordsList()
         {
             string line;
             string wordEntry = wordEntered.ToUpper();
@@ -190,12 +198,23 @@ namespace Countdown
                 if (string.Equals(line, wordEntry, StringComparison.OrdinalIgnoreCase)) //Comparing strings without case sensitive
                 {
                     DisplayAlert("yes", "OKAY", "Yes");
+                    if(playerTurn == 0)
+                    {
+                        player1Points += wordEntered.Length;
+                        scoreboard();
+                    }
+                    else
+                    {
+                        player2Points += wordEntered.Length;
+                        scoreboard();
+                    }
                     clearGrid();
+                    playersTurn();
                     return;
                 }
             }
             DisplayAlert("No", "Word not found", "Okay");
-
+            playersTurn();
         }
 
         private void playBtn(object sender, EventArgs e)
@@ -225,11 +244,27 @@ namespace Countdown
                 {
                     timer.Stop();
                     timerLbl.Text = $"Times up!";
+                    stopGame();
                 }
             }
             );
            
         }
-        //MAKE 2 PLAYER MODE
-    }
+
+        public void playersTurn()
+        {
+            if(playerTurn == 0)
+            {
+                showTurn.Text = Players.name1 + "'s Turn";
+                playerTurn++;
+                startTimer();
+            }
+            else
+            {
+                showTurn.Text = Players.name2 + "'s Turn";
+                playerTurn--;
+                startTimer();
+            }
+        }
+    }   //ADD ROUND TO THE GAME AND WORK ON OTHER PAGES
 }

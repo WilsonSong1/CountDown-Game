@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uY/eLrOqnGw=",
+  "dgSpecHash": "6ETVNLU86ok=",
   "success": true,
   "projectFilePath": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\Countdown.csproj",
   "expectedPackageFiles": [
@@ -15,19 +15,19 @@
     "C:\\Users\\wilso\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\wilso\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\wilso\\.nuget\\packages\\microsoft.graphics.win2d\\1.2.0\\microsoft.graphics.win2d.1.2.0.nupkg.sha512",
-    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.maui.controls\\8.0.61\\microsoft.maui.controls.8.0.61.nupkg.sha512",
-    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.61\\microsoft.maui.controls.build.tasks.8.0.61.nupkg.sha512",
-    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.maui.controls.compatibility\\8.0.61\\microsoft.maui.controls.compatibility.8.0.61.nupkg.sha512",
-    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.maui.controls.core\\8.0.61\\microsoft.maui.controls.core.8.0.61.nupkg.sha512",
-    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.maui.controls.xaml\\8.0.61\\microsoft.maui.controls.xaml.8.0.61.nupkg.sha512",
-    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.maui.core\\8.0.61\\microsoft.maui.core.8.0.61.nupkg.sha512",
-    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.maui.essentials\\8.0.61\\microsoft.maui.essentials.8.0.61.nupkg.sha512",
-    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.maui.graphics\\8.0.61\\microsoft.maui.graphics.8.0.61.nupkg.sha512",
-    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\8.0.61\\microsoft.maui.graphics.win2d.winui.desktop.8.0.61.nupkg.sha512",
-    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.61\\microsoft.maui.resizetizer.8.0.61.nupkg.sha512",
-    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.7\\microsoft.net.illink.tasks.8.0.7.nupkg.sha512",
+    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.maui.controls\\8.0.72\\microsoft.maui.controls.8.0.72.nupkg.sha512",
+    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.72\\microsoft.maui.controls.build.tasks.8.0.72.nupkg.sha512",
+    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.maui.controls.compatibility\\8.0.72\\microsoft.maui.controls.compatibility.8.0.72.nupkg.sha512",
+    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.maui.controls.core\\8.0.72\\microsoft.maui.controls.core.8.0.72.nupkg.sha512",
+    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.maui.controls.xaml\\8.0.72\\microsoft.maui.controls.xaml.8.0.72.nupkg.sha512",
+    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.maui.core\\8.0.72\\microsoft.maui.core.8.0.72.nupkg.sha512",
+    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.maui.essentials\\8.0.72\\microsoft.maui.essentials.8.0.72.nupkg.sha512",
+    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.maui.graphics\\8.0.72\\microsoft.maui.graphics.8.0.72.nupkg.sha512",
+    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\8.0.72\\microsoft.maui.graphics.win2d.winui.desktop.8.0.72.nupkg.sha512",
+    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.72\\microsoft.maui.resizetizer.8.0.72.nupkg.sha512",
+    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.8\\microsoft.net.illink.tasks.8.0.8.nupkg.sha512",
     "C:\\Users\\wilso\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
-    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240311000\\microsoft.windowsappsdk.1.5.240311000.nupkg.sha512",
+    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240607001\\microsoft.windowsappsdk.1.5.240607001.nupkg.sha512",
     "C:\\Users\\wilso\\.nuget\\packages\\xamarin.android.glide\\4.15.1.2\\xamarin.android.glide.4.15.1.2.nupkg.sha512",
     "C:\\Users\\wilso\\.nuget\\packages\\xamarin.android.glide.annotations\\4.15.1.2\\xamarin.android.glide.annotations.4.15.1.2.nupkg.sha512",
     "C:\\Users\\wilso\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.15.1.2\\xamarin.android.glide.disklrucache.4.15.1.2.nupkg.sha512",
@@ -111,7 +111,7 @@
     "C:\\Users\\wilso\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.9.0.1\\xamarin.kotlin.stdlib.jdk8.1.9.0.1.nupkg.sha512",
     "C:\\Users\\wilso\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.7.2.1\\xamarin.kotlinx.coroutines.android.1.7.2.1.nupkg.sha512",
     "C:\\Users\\wilso\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.7.2.1\\xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512",
-    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512"
+    "C:\\Users\\wilso\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.34\\microsoft.windows.sdk.net.ref.10.0.19041.34.nupkg.sha512"
   ],
   "logs": []
 }
