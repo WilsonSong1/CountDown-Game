@@ -5,10 +5,13 @@
              BackgroundColor="CornflowerBlue">
 
     <VerticalStackLayout>
-        <Label Text="CountDown" TextColor="Blue" HorizontalOptions="Center" FontSize="50"/>
+        <Label x:Name="rounds" Text="Round: 1" TextColor="Blue" HorizontalOptions="Center" FontSize="50" />
         <Label x:Name="lbl1" Text="PlaceHolder: " FontSize="30" HorizontalOptions="Center" Padding="10"/>
         <Label x:Name="lbl2" Text="PlaceHolder: " FontSize="30" HorizontalOptions="Center" Padding="10"/>
-        <Grid x:Name="CountDownGrid" BackgroundColor="Blue" RowDefinitions="125, 125, 62.5, 62.5" ColumnDefinitions="*, *, *, *, *, *, *, *, *" >
+        <Grid x:Name="CountDownGrid" BackgroundColor="Blue" RowDefinitions="125" ColumnDefinitions="*, *, *, *, *, *, *, *, *" >
+
+        </Grid>
+        <Grid BackgroundColor="CornflowerBlue" RowDefinitions="125, 62.5, 62.5" ColumnDefinitions="*, *, *, *, *, *, *, *, *">
             <Label BackgroundColor="CornflowerBlue" Grid.Row="1" Grid.ColumnSpan="9"/>
             <Button x:Name="Vowel" Clicked="GiveVowel" Text="Vowel" Grid.Row="1" Grid.Column="3" MaximumHeightRequest="50" BackgroundColor="White" BorderColor="Black" BorderWidth="1"/>
             <Button x:Name="Consonant" Clicked="GiveConsonant" Text="Consonant" Grid.Row="1" Grid.Column="5" MaximumHeightRequest="50" BackgroundColor="White" BorderColor="Black" BorderWidth="1"/>
@@ -16,6 +19,7 @@
             <Label BackgroundColor="CornflowerBlue" Grid.Row="3" Grid.ColumnSpan="9"/>
             <Button x:Name="play" Clicked="playBtn" Text="Start Game" Grid.Row="2" Grid.Column="4" MaximumHeightRequest="50" BackgroundColor="White" BorderColor="Black" BorderWidth="1" IsVisible="False"/>
             <Label x:Name="showTurn" BackgroundColor="CornflowerBlue" Grid.Row="2" Grid.Column="4" Text="Player Turn" FontSize="30" HorizontalOptions="Center" VerticalOptions="Center" IsVisible="False" MinimumWidthRequest="200"/>
+            <Button x:Name="newRound" Clicked="startRound" Text="Start new round" Grid.Row="2" Grid.Column="4" MaximumHeightRequest="50" BackgroundColor="White" BorderColor="Black" BorderWidth="1" IsVisible="False"/>
             <Label x:Name="timerLbl" BackgroundColor="CornflowerBlue" Grid.Row="3" Grid.Column="4" Text="Timer: " FontSize="30" HorizontalOptions="Center" VerticalOptions="Center" IsVisible="False" MinimumWidthRequest="200"/>
         </Grid>
 

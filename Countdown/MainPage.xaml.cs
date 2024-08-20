@@ -18,7 +18,8 @@ namespace Countdown
         int i = 0;
         int player1Points = 0;
         int player2Points = 0;
-        int playerTurn = 0;
+        int playerTurn = 1;
+        int roundNum = 1;
 
         private char[] vowelList = { 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A',
                                      'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E',
@@ -95,6 +96,8 @@ namespace Countdown
             }
             else
             {
+                playerTurn = 1;
+
                 Label label = new Label();
                 label.Text = vowelList[i].ToString();
                 label.FontSize = 75;
@@ -120,6 +123,9 @@ namespace Countdown
             }
             else
             {
+
+                playerTurn = 1;
+
                 Label label = new Label();
                 label.Text = consonantList[i].ToString();
                 label.FontSize = 75;
@@ -138,13 +144,23 @@ namespace Countdown
 
         private void playGame()
         {
+            playerTurn = 1;
+            i = 0;
+            newRound.IsVisible = false;
             CountDownGrid2.IsVisible = true;
             EnterWord.IsVisible = true;
             SubmitEntry.IsVisible = true;
             play.IsVisible = false;
             timerLbl.IsVisible = true;
             showTurn.IsVisible = true;
-            playersTurn();
+            rounds.IsVisible = true;
+            newRound.IsVisible = false;
+            displayPlayersTurn(); 
+        }
+
+        private void displayPlayersTurn()
+        {
+            showTurn.Text = Players.name1 + "'s Turn";
         }
 
         private void stopGame()
@@ -189,7 +205,7 @@ namespace Countdown
             string line;
             string wordEntry = wordEntered.ToUpper();
 
-            StreamReader sr = new StreamReader(Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"..\..\..\..\..\Resources\WordList.txt")); //Finding the path file starting from where the program is run
+            StreamReader sr = new StreamReader(Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"..\..\..\..\..\Resources\WordList.txt")); //Finding the WordList.txt file starting from where the program is run
             line = sr.ReadLine();
             while(line != null)
             {
@@ -198,7 +214,7 @@ namespace Countdown
                 if (string.Equals(line, wordEntry, StringComparison.OrdinalIgnoreCase)) //Comparing strings without case sensitive
                 {
                     DisplayAlert("yes", "OKAY", "Yes");
-                    if(playerTurn == 0)
+                    if(playerTurn == 1)
                     {
                         player1Points += wordEntered.Length;
                         scoreboard();
@@ -207,6 +223,7 @@ namespace Countdown
                     {
                         player2Points += wordEntered.Length;
                         scoreboard();
+                        checkRounds();
                     }
                     clearGrid();
                     playersTurn();
@@ -214,7 +231,6 @@ namespace Countdown
                 }
             }
             DisplayAlert("No", "Word not found", "Okay");
-            playersTurn();
         }
 
         private void playBtn(object sender, EventArgs e)
@@ -226,7 +242,7 @@ namespace Countdown
         private void startTimer()
         {
             totalTime = 30;
-            timer = new System.Timers.Timer(1000); //A timer that ticks every 
+            timer = new System.Timers.Timer(1000); //A timer that ticks every second
             timer.Elapsed += timeElapsed;
             timer.Start();
             timerLbl.Text = $"{totalTime}'s left";
@@ -235,36 +251,82 @@ namespace Countdown
 
         private void timeElapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
-            Dispatcher.Dispatch(() =>
+            Dispatcher.Dispatch(() => //Continously update the timer label
             {
                     totalTime--;
                     timerLbl.Text = $"{totalTime}'s left";
 
-                if(totalTime ==0)
+                if(totalTime == 0)
                 {
                     timer.Stop();
                     timerLbl.Text = $"Times up!";
-                    stopGame();
+
+                    if(playerTurn == 1)
+                    {
+                        checkRounds();
+                        newRound.IsVisible = true;
+                        showTurn.IsVisible = false;
+                        stopGame();
+                    }
+                    playersTurn();
                 }
             }
             );
            
         }
 
+        public void startRound(object sender, EventArgs e)
+        {
+            playerTurn = 0;
+            roundNum++;
+            rounds.Text = "Round: " + roundNum;
+            CountDownGrid.Clear();
+            i = 0;
+            newRound.IsVisible = false;
+        }
+
         public void playersTurn()
         {
-            if(playerTurn == 0)
-            {
-                showTurn.Text = Players.name1 + "'s Turn";
-                playerTurn++;
-                startTimer();
-            }
-            else
+            if(playerTurn == 1)
             {
                 showTurn.Text = Players.name2 + "'s Turn";
                 playerTurn--;
-                startTimer();
+                return;
+            }
+            else
+            {
+                showTurn.Text = Players.name1 + "'s Turn";
+                timer.Stop();
+                checkRounds();
+                newRound.IsVisible = true;
+                timerLbl.IsVisible = false;
+                showTurn.IsVisible = false;
             }
         }
-    }   //ADD ROUND TO THE GAME AND WORK ON OTHER PAGES
+
+        public void checkRounds()
+        {
+            if(roundNum > 4)
+            {
+                findWinner();
+            }
+
+        }
+
+        private void findWinner()
+        {
+            if (player1Points > player2Points)
+            {
+                DisplayAlert("Player 1 has won", Players.name1 + " has won the game!", "Okay");
+                stopGame();
+            }
+
+            else if(player2Points > player1Points)
+            {
+                DisplayAlert("Player 2 has won", Players.name2 + " has won the game!", "Okay");
+                stopGame();
+            }
+        }
+    }   //WORK ON OTHER PAGES
+        //FIX SUBMIT BUTTON AND TEXT BOX AFTER A NEW ROUND
 }
