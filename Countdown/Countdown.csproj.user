@@ -24,6 +24,9 @@
     <MauiXaml Update="Players.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Rounds.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Settings.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

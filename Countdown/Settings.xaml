@@ -2,11 +2,23 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Countdown.Settings"
-             Title="Settings">
+             Title="Settings"
+             BackgroundColor="CornflowerBlue">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Label
+        FontSize="20"
+        TextColor="Black"
+        Text="Settings"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center"
+        Padding="65"
+        MaximumWidthRequest="500"/>
+
+        <Grid RowDefinitions="100,100,100,100" BackgroundColor="Blue" HeightRequest="400" WidthRequest="500" HorizontalOptions="Center" Padding="20">
+            <Button Text="Rounds" HorizontalOptions="Center" Clicked="roundsClicked" Grid.Row="0" VerticalOptions="Start" MinimumHeightRequest="50" MinimumWidthRequest="150" BackgroundColor="White" BorderWidth="1" BorderColor="Black"/>
+            <Button Text="Dark mode" Clicked="darkClicked" HorizontalOptions="Center" Grid.Row="1" VerticalOptions="Start" MinimumHeightRequest="50" MinimumWidthRequest="150" BackgroundColor="White" BorderWidth="1" BorderColor="Black"/>
+            <Button Text="Light mode" Clicked="lightClicked" HorizontalOptions="Center" Grid.Row="2" VerticalOptions="Start" MinimumHeightRequest="50" MinimumWidthRequest="150" BackgroundColor="White" BorderWidth="1" BorderColor="Black"/>
+            <Button Text="Return" Clicked="returnClicked"  HorizontalOptions="Center" Grid.Row="3" VerticalOptions="Start" MinimumHeightRequest="50" MinimumWidthRequest="150" BackgroundColor="White" BorderWidth="1" BorderColor="Black"/>
+        </Grid> 
     </VerticalStackLayout>
 </ContentPage>

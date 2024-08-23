@@ -14,7 +14,7 @@
             Padding="65"
             MaximumWidthRequest="500"/>
 
-        <Grid RowDefinitions="100, 100, 100, 100" ColumnDefinitions="450" BackgroundColor="Green">
+        <Grid RowDefinitions="100, 100, 100, 100" ColumnDefinitions="450" BackgroundColor="Blue">
             <Button x:Name="playBtn" Text="Play" Clicked="clickPlay" MaximumWidthRequest="150" MaximumHeightRequest="50" Grid.Row="0" BackgroundColor="White"/>
             <Button x:Name="HistBtn" Text="History" Clicked="clickHistory" MaximumWidthRequest="150" MaximumHeightRequest="50" Grid.Row="1" BackgroundColor="White"/>
             <Button x:Name="SetBtn" Text="Settings" Clicked="clickSettings" MaximumWidthRequest="150" MaximumHeightRequest="50" Grid.Row="2" BackgroundColor="White"/>

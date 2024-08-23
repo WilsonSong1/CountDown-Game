@@ -64,6 +64,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Countdown.Resources.Styles
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/wilso/source/repos/Countdown/Countdown/Rounds.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Countdown.Rounds.xaml
+build_metadata.AdditionalFiles.TargetPath = Rounds.xaml
+build_metadata.AdditionalFiles.RelativePath = Rounds.xaml
+
 [C:/Users/wilso/source/repos/Countdown/Countdown/Settings.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Countdown.Settings.xaml

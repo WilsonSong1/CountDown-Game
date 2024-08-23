@@ -20,6 +20,9 @@ namespace Countdown
         int player2Points = 0;
         int playerTurn = 1;
         int roundNum = 1;
+        int saveTime = 0;
+        int savePlayer1 = 0;
+        int savePlayer2 = 0;
 
         private char[] vowelList = { 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A',
                                      'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E',
@@ -63,6 +66,8 @@ namespace Countdown
             }
             else
             {
+
+                //Putting the letters entered into the grid
                 CountDownGrid2.Clear();
                 for (i = 0; i < wordEntered.Length; i++)
                 {
@@ -89,6 +94,8 @@ namespace Countdown
 
         public void GiveVowel(object sender, EventArgs e) 
         {
+
+            //Shuffles and displays one random vowel
             Random.Shared.Shuffle(vowelList);
             if(i == 9)
             {
@@ -116,6 +123,8 @@ namespace Countdown
         }
         public void GiveConsonant(object sender, EventArgs e) 
         {
+
+            //Shuffles and displays one random consonant
             Random.Shared.Shuffle(consonantList);
             if (i == 9)
             {
@@ -177,6 +186,8 @@ namespace Countdown
 
         private void letterCheck()
         {
+            
+            //Checks if the word entered only contains the letters from the random letters
             string wordEntry = wordEntered.ToUpper();
             string lettersSaved = new string(savedLetters);
             int wordLength = 0;
@@ -202,6 +213,8 @@ namespace Countdown
 
        public void WordsList()
         {
+
+            //Checks the text file if the word entered matches with any of the words in the text file
             string line;
             string wordEntry = wordEntered.ToUpper();
 
@@ -213,14 +226,15 @@ namespace Countdown
 
                 if (string.Equals(line, wordEntry, StringComparison.OrdinalIgnoreCase)) //Comparing strings without case sensitive
                 {
-                    DisplayAlert("yes", "OKAY", "Yes");
                     if(playerTurn == 1)
                     {
+                        DisplayAlert("Great!", wordEntered.Length + " points for " + Players.name1, "Ok");
                         player1Points += wordEntered.Length;
                         scoreboard();
                     }
                     else
                     {
+                        DisplayAlert("Great!", wordEntered.Length + " points for " + Players.name2, "Ok");
                         player2Points += wordEntered.Length;
                         scoreboard();
                         checkRounds();
@@ -296,6 +310,7 @@ namespace Countdown
             else
             {
                 showTurn.Text = Players.name1 + "'s Turn";
+                saveTime = totalTime;
                 timer.Stop();
                 checkRounds();
                 newRound.IsVisible = true;
@@ -306,27 +321,38 @@ namespace Countdown
 
         public void checkRounds()
         {
-            if(roundNum > 4)
+            if(roundNum > Rounds.numOfRounds)
             {
                 findWinner();
             }
 
         }
 
-        private void findWinner()
+        public void findWinner()
         {
             if (player1Points > player2Points)
             {
-                DisplayAlert("Player 1 has won", Players.name1 + " has won the game!", "Okay");
                 stopGame();
+                DisplayAlert("Player 1 has won", Players.name1 + " has won the game!", "Okay");
+                savePlayer1 = player1Points;
+                savePlayer2 = player2Points;
             }
 
             else if(player2Points > player1Points)
             {
-                DisplayAlert("Player 2 has won", Players.name2 + " has won the game!", "Okay");
                 stopGame();
+                DisplayAlert("Player 2 has won", Players.name2 + " has won the game!", "Okay");
+                savePlayer1 = player1Points;
+                savePlayer2 = player2Points;
+            }
+
+            else
+            {
+                stopGame();
+                DisplayAlert("Draw", "Both players scored the same points!", "Okay");
+                savePlayer1 = player1Points;
+                savePlayer2 = player2Points;
             }
         }
-    }   //WORK ON OTHER PAGES
-        //FIX SUBMIT BUTTON AND TEXT BOX AFTER A NEW ROUND
+    } 
 }
