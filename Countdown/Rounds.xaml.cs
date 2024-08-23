@@ -17,8 +17,9 @@ public partial class Rounds : ContentPage
 		roundNumber.Text = String.Format("Number of rounds: {0}", wholeValue);
 	}
 
-	public void roundSet()
+	public async void roundsSet(object sender, EventArgs e)
 	{
 		numOfRounds = wholeValue;
-	}
+        await Navigation.PushAsync(new Page1());
+    }
 }

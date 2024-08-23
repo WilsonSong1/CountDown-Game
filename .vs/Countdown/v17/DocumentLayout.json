@@ -7,44 +7,52 @@
       "RelativeMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|solutionrelative:countdown\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|c:\\users\\wilso\\source\\repos\\countdown\\countdown\\rounds.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|solutionrelative:countdown\\rounds.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|c:\\users\\wilso\\source\\repos\\countdown\\countdown\\timer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|solutionrelative:countdown\\timer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|c:\\users\\wilso\\source\\repos\\countdown\\countdown\\timer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|solutionrelative:countdown\\timer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|c:\\users\\wilso\\source\\repos\\countdown\\countdown\\players.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|solutionrelative:countdown\\players.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|c:\\users\\wilso\\source\\repos\\countdown\\countdown\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|solutionrelative:countdown\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|c:\\users\\wilso\\source\\repos\\countdown\\countdown\\rounds.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|solutionrelative:countdown\\rounds.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|c:\\users\\wilso\\source\\repos\\countdown\\countdown\\rounds.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|solutionrelative:countdown\\rounds.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|c:\\users\\wilso\\source\\repos\\countdown\\countdown\\settings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|solutionrelative:countdown\\settings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|c:\\users\\wilso\\source\\repos\\countdown\\countdown\\players.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|solutionrelative:countdown\\players.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|c:\\users\\wilso\\source\\repos\\countdown\\countdown\\rounds.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|solutionrelative:countdown\\rounds.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|c:\\users\\wilso\\source\\repos\\countdown\\countdown\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|solutionrelative:countdown\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|c:\\users\\wilso\\source\\repos\\countdown\\countdown\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|solutionrelative:countdown\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|c:\\users\\wilso\\source\\repos\\countdown\\countdown\\settings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|solutionrelative:countdown\\settings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|c:\\users\\wilso\\source\\repos\\countdown\\countdown\\players.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|solutionrelative:countdown\\players.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|c:\\users\\wilso\\source\\repos\\countdown\\countdown\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|solutionrelative:countdown\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|c:\\users\\wilso\\source\\repos\\countdown\\countdown\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|solutionrelative:countdown\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|c:\\users\\wilso\\source\\repos\\countdown\\countdown\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|solutionrelative:countdown\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5C841DD-4DB5-4D14-B60B-D7E77C0D66E8}|Countdown\\Countdown.csproj|c:\\users\\wilso\\source\\repos\\countdown\\countdown\\history.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -74,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,19 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Settings.xaml",
-              "DocumentMoniker": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\Settings.xaml",
-              "RelativeDocumentMoniker": "Countdown\\Settings.xaml",
-              "ToolTip": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\Settings.xaml",
-              "RelativeToolTip": "Countdown\\Settings.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-06T13:57:25.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\App.xaml.cs",
               "RelativeDocumentMoniker": "Countdown\\App.xaml.cs",
@@ -122,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Players.xaml",
               "DocumentMoniker": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\Players.xaml",
               "RelativeDocumentMoniker": "Countdown\\Players.xaml",
@@ -130,12 +126,11 @@
               "RelativeToolTip": "Countdown\\Players.xaml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-06T13:56:54.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T13:56:54.827Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Page1.xaml",
               "DocumentMoniker": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\Page1.xaml",
               "RelativeDocumentMoniker": "Countdown\\Page1.xaml",
@@ -143,25 +138,24 @@
               "RelativeToolTip": "Countdown\\Page1.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-30T15:12:33.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T15:12:33.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Settings.xaml.cs",
               "DocumentMoniker": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\Settings.xaml.cs",
               "RelativeDocumentMoniker": "Countdown\\Settings.xaml.cs",
               "ToolTip": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\Settings.xaml.cs",
               "RelativeToolTip": "Countdown\\Settings.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T14:00:28.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Page1.xaml.cs",
               "DocumentMoniker": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\Page1.xaml.cs",
               "RelativeDocumentMoniker": "Countdown\\Page1.xaml.cs",
@@ -169,8 +163,7 @@
               "RelativeToolTip": "Countdown\\Page1.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T15:20:27.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T15:20:27.508Z"
             },
             {
               "$type": "Document",
@@ -187,26 +180,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Rounds.xaml",
               "DocumentMoniker": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\Rounds.xaml",
               "RelativeDocumentMoniker": "Countdown\\Rounds.xaml",
               "ToolTip": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\Rounds.xaml",
               "RelativeToolTip": "Countdown\\Rounds.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-08-22T20:26:15.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Rounds.xaml.cs",
               "DocumentMoniker": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\Rounds.xaml.cs",
               "RelativeDocumentMoniker": "Countdown\\Rounds.xaml.cs",
               "ToolTip": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\Rounds.xaml.cs",
               "RelativeToolTip": "Countdown\\Rounds.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T20:27:01.034Z",
               "EditorCaption": ""
@@ -219,14 +212,14 @@
               "RelativeDocumentMoniker": "Countdown\\MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\MainPage.xaml.cs",
               "RelativeToolTip": "Countdown\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMBAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-27T20:26:14.613Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Players.xaml.cs",
               "DocumentMoniker": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\Players.xaml.cs",
               "RelativeDocumentMoniker": "Countdown\\Players.xaml.cs",
@@ -236,6 +229,44 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T14:00:16.199Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Timer.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\Timer.xaml.cs",
+              "RelativeDocumentMoniker": "Countdown\\Timer.xaml.cs",
+              "ToolTip": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\Timer.xaml.cs",
+              "RelativeToolTip": "Countdown\\Timer.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T19:22:14.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Timer.xaml",
+              "DocumentMoniker": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\Timer.xaml",
+              "RelativeDocumentMoniker": "Countdown\\Timer.xaml",
+              "ToolTip": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\Timer.xaml",
+              "RelativeToolTip": "Countdown\\Timer.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-23T19:18:40.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Settings.xaml",
+              "DocumentMoniker": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\Settings.xaml",
+              "RelativeDocumentMoniker": "Countdown\\Settings.xaml",
+              "ToolTip": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\Settings.xaml",
+              "RelativeToolTip": "Countdown\\Settings.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-06T13:57:25.509Z"
             },
             {
               "$type": "Document",
@@ -251,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "WordList.txt",
               "DocumentMoniker": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\Resources\\WordList.txt",
               "RelativeDocumentMoniker": "Countdown\\Resources\\WordList.txt",
@@ -263,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "History.xaml",
               "DocumentMoniker": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\History.xaml",
               "RelativeDocumentMoniker": "Countdown\\History.xaml",
@@ -275,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\App.xaml",
               "RelativeDocumentMoniker": "Countdown\\App.xaml",
@@ -287,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\wilso\\source\\repos\\Countdown\\Countdown\\AppShell.xaml",
               "RelativeDocumentMoniker": "Countdown\\AppShell.xaml",

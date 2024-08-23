@@ -17,7 +17,7 @@
         <Grid RowDefinitions="100,100,100,100" BackgroundColor="Blue" HeightRequest="400" WidthRequest="500" HorizontalOptions="Center" Padding="20">
             <Button Text="Rounds" HorizontalOptions="Center" Clicked="roundsClicked" Grid.Row="0" VerticalOptions="Start" MinimumHeightRequest="50" MinimumWidthRequest="150" BackgroundColor="White" BorderWidth="1" BorderColor="Black"/>
             <Button Text="Dark mode" Clicked="darkClicked" HorizontalOptions="Center" Grid.Row="1" VerticalOptions="Start" MinimumHeightRequest="50" MinimumWidthRequest="150" BackgroundColor="White" BorderWidth="1" BorderColor="Black"/>
-            <Button Text="Light mode" Clicked="lightClicked" HorizontalOptions="Center" Grid.Row="2" VerticalOptions="Start" MinimumHeightRequest="50" MinimumWidthRequest="150" BackgroundColor="White" BorderWidth="1" BorderColor="Black"/>
+            <Button Text="Set Timer" Clicked="timerClicked" HorizontalOptions="Center" Grid.Row="2" VerticalOptions="Start" MinimumHeightRequest="50" MinimumWidthRequest="150" BackgroundColor="White" BorderWidth="1" BorderColor="Black"/>
             <Button Text="Return" Clicked="returnClicked"  HorizontalOptions="Center" Grid.Row="3" VerticalOptions="Start" MinimumHeightRequest="50" MinimumWidthRequest="150" BackgroundColor="White" BorderWidth="1" BorderColor="Black"/>
         </Grid> 
     </VerticalStackLayout>

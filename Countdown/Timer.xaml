@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Countdown.Rounds"
-             Title="Rounds"
+             x:Class="Countdown.Timer"
+             Title="Timer"
              BackgroundColor="CornflowerBlue">
     <VerticalStackLayout
         VerticalOptions="Center"
         HorizontalOptions="Center">
-        <Label Text="Please select the number of rounds you would like"
+        <Label Text="Please select the number of seconds you would like"
                FontSize="30"/>
-        <Label x:Name="roundNumber"
+        <Label x:Name="timerNumber"
                FontSize="30"
-               Text="Number of Rounds: 3"
+               Text="Time set: 30"
                HorizontalOptions="Center"/>
-        <Slider Maximum="5"
-                Minimum="1"
-                ValueChanged="slide"/>
-        <Button x:Name="roundsBtn"
-                Clicked="roundsSet"
+        <Slider Maximum="60"
+                ValueChanged="time"/>
+        <Button x:Name="secondsBtn"
+                Clicked="secondsSet"
                 Text="Save"
                 BackgroundColor="White"
                 MaximumWidthRequest="150"

@@ -255,7 +255,7 @@ namespace Countdown
 
         private void startTimer()
         {
-            totalTime = 30;
+            totalTime = Timer.numOfSeconds;
             timer = new System.Timers.Timer(1000); //A timer that ticks every second
             timer.Elapsed += timeElapsed;
             timer.Start();
@@ -321,14 +321,14 @@ namespace Countdown
 
         public void checkRounds()
         {
-            if(roundNum > Rounds.numOfRounds)
+            if(roundNum >= Rounds.numOfRounds)
             {
                 findWinner();
             }
 
         }
 
-        public void findWinner()
+        public async void findWinner()
         {
             if (player1Points > player2Points)
             {
@@ -353,6 +353,8 @@ namespace Countdown
                 savePlayer1 = player1Points;
                 savePlayer2 = player2Points;
             }
+
+            await Navigation.PushAsync(new Page1());
         }
     } 
 }

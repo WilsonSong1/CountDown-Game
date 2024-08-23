@@ -17,9 +17,9 @@ public partial class Settings : ContentPage
         await Navigation.PushAsync(new Rounds());
     }
 
-    private void lightClicked(object sender, EventArgs e)
+    private async void timerClicked(object sender, EventArgs e)
     {
-        
+        await Navigation.PushAsync(new Timer());
     }
 
     private void darkClicked(object sender, EventArgs e)
